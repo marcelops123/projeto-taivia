@@ -65,7 +65,7 @@ export default () => {
             </section>
             {moviteList.length <= 0 &&
                 <div className='loading'>
-                    <video width={'40%'} autoPlay muted src='./taiviagif.mp4' alt='Carregando!' />
+                    <video style={{minWidth: '600px'}} width={'40%'} autoPlay muted src='./taiviagif.mp4' alt='Carregando!' />
                 </div>
             }
         </div>
